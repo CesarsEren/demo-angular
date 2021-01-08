@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "sistema"
+  "defaultProject": "sistema",
+  "cli": {
+    "analytics": "d2f1e76a-2492-4316-ab22-1ba143eff398"
+  }
 }

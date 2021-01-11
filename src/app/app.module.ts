@@ -11,10 +11,11 @@ import { SharedModule } from './shared/shared.module';
 
 //RUTAS
 import { APP_ROUTES } from './app.routes';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [AppComponent, LoginComponent, RegisterComponent],
-  imports: [BrowserModule, PagesModule, SharedModule, APP_ROUTES],
+  imports: [FormsModule, BrowserModule, PagesModule, SharedModule, APP_ROUTES],
   providers: [],
   bootstrap: [AppComponent],
 })

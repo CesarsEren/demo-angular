@@ -1,1 +1,17 @@
-<p>graficas1 works!</p>
+<div class="row">
+    <div class="col-6">
+        <app-grafico-dona [doughnutChartData]="doughnutChartData" titulografico="DONA1"
+            [doughnutChartLabels]="doughnutChartLabels" [doughnutChartType]="doughnutChartType">
+        </app-grafico-dona>
+    </div>
+
+    <div class="col-6">
+        <app-grafico-dona [doughnutChartData]="doughnutChartData" titulografico="DONA2"
+            [doughnutChartLabels]="doughnutChartLabels" [doughnutChartType]="doughnutChartType">
+        </app-grafico-dona>
+    </div>
+    <!--div class="col-6">
+        <app-grafico-dona [data]="doughnutChartData" [labels]="doughnutChartLabels" [chartType]="doughnutChartType">
+        </app-grafico-dona>
+    </div-->
+</div>
